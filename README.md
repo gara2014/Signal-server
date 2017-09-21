@@ -6,12 +6,12 @@
 
 ## 部署步骤
 1、安装Python 2.7， Django<br>
-2、安装mysql
-3、新建数据库signal1(最好能支持中文字符)
-4、在settings.py中ALLOWED_HOSTS字段添加本机IP
-5、在settings.py中DATABASES字段中配置数据库用户名，密码等信息
-6、启动服务，命令行中输入：python manage.py runserver 0.0.0.0:8080
-7、修改Client端代码中的RoomSignalClient.SignalUrl的IP和端口
+2、安装mysql<br>
+3、新建数据库signal1(最好能支持中文字符)<br>
+4、在settings.py中ALLOWED_HOSTS字段添加本机IP<br>
+5、在settings.py中DATABASES字段中配置数据库用户名，密码等信息<br>
+6、启动服务，命令行中输入：python manage.py runserver 0.0.0.0:8080<br>
+7、修改Client端代码中的RoomSignalClient.SignalUrl的IP和端口<br>
 
 ## 相关项目地址
 iOS：https://github.com/gara2014/Multiplayer-video-using-webrtc<br>
