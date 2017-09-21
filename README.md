@@ -4,7 +4,14 @@
 * WebRTC提供了视频会议的核心技术，包括音视频的采集、编解码、网络传输、显示等功能，并且还支持跨平台：windows，linux，mac，android。<br><br>
 * Native方面，GitHub上只看到使用WebRTC实现P2P视频通话的Demo，本项目是利用WebRTC实现了多人视频会议的Demo<br>
 
-## 原理
+## 部署步骤
+1、安装Python 2.7， Django<br>
+2、安装mysql
+3、新建数据库signal1(最好能支持中文字符)
+4、在settings.py中ALLOWED_HOSTS字段添加本机IP
+5、在settings.py中DATABASES字段中配置数据库用户名，密码等信息
+6、启动服务，命令行中输入：python manage.py runserver 0.0.0.0:8080
+7、修改Client端代码中的RoomSignalClient.SignalUrl的IP和端口
 
 ## 相关项目地址
 iOS：https://github.com/gara2014/Multiplayer-video-using-webrtc<br>
